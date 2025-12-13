@@ -1,3 +1,18 @@
+multiples_dict = {
+    1: [1],
+    2: [2],
+    3: [3],
+    4: [4, 2],
+    5: [5],
+    6: [6, 2, 3],
+    7: [7],
+    8: [8, 2, 4],
+    9: [9, 3],
+    10: [10, 2, 5],
+}
+
+
+
 def gerate_invalid_ids(low: int, high: int):
     res = 0
     for length in range(2, 11, 2):
